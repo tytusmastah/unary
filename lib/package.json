@@ -1,0 +1,23 @@
+{
+    "name": "unary",
+    "version": "1.0.0",
+    "description": "Implementation of operation in unary number system",
+    "main": "unary.js",
+    "scripts": {
+        "build": "tsc --build --clean && tsc",
+        "test": "npm run build && mocha dist/tests/test.js"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/chai": "^4.3.0",
+        "@types/mocha": "^9.1.0",
+        "@types/supertest": "^2.0.12",
+        "async": ">=2.6.4",
+        "chai": "^4.3.6",
+        "mocha": "^9.2.2",
+        "supertest": "^6.2.2",
+        "typescript": "^4.6.3"
+    },
+    "author": "tytus.mastah@gmail.com"
+}
