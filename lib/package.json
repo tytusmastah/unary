@@ -5,7 +5,8 @@
     "main": "unary.js",
     "scripts": {
         "build": "tsc --build --clean && tsc",
-        "test": "npm run build && mocha dist/tests/test.js"
+        "test": "npm run build && mocha dist/tests/test.js",
+        "unit": "npm run build && mocha -b dist/tests/test.js"
     },
     "license": "MIT",
     "dependencies": {},
